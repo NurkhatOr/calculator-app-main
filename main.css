@@ -55,7 +55,7 @@
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: rgb(0, 178, 248);
 }
 
 html {
@@ -459,6 +459,10 @@ button {
 :is(button, #btn-del, #btn-reset, #btn-result):active {
   transform: translateY(4px);
   box-shadow: 0 1px 0 var(--th1-key-sdw);
+}
+
+footer {
+  margin-top: 2rem;
 }
 
 /* Desktop view */
